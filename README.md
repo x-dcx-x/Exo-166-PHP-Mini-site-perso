@@ -19,6 +19,7 @@ Instructions détaillées
 6. affichez le dernier message dans la page `public/admin.php
 
 - Déployez l'appli sur votre serveur
+- Vous êtes libre de modifier toute la stucture si vous le souhaitez !
 
 NB
 --- 
