@@ -28,11 +28,18 @@ function getPart($name) {
 function getUserData (){
     $content =  file_get_contents("../data/user.json");
     $contents = json_decode($content);
-    foreach ( $contents as $key =>$value){
+    foreach ( $contents as $key => $value){
+//        if(is_array($value)){
+        echo $key."<br>";
         echo $value."<br>";
     }
+        foreach ($value as $array) {
+            foreach ($array as $items => $valueDeux) {
+                echo "<p class='user'><span class='bold'>$items :</span> $valueDeux </p>";
+            }
 
-
+        }
+//
 
 
 }
