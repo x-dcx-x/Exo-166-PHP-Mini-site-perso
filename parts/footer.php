@@ -1,4 +1,7 @@
+<html lang="fr">
+<body>
 <footer>
+
 
 </footer>
 

@@ -18,9 +18,21 @@ function getContent() {
 
         include __DIR__.'/../pages/contact.php';
     }
+
 }
 
 function getPart($name) {
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
+function getUserData (){
+    $content =  file_get_contents("../data/user.json");
+    $contents = json_decode($content);
+    foreach ( $contents as $key =>$value){
+        echo $value."<br>";
+    }
+
+
+
+
+}

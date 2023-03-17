@@ -44,3 +44,6 @@ section, form {
 section h1 {
 	margin: 8px;
 }
+#title{
+	font-size: 5rem;
+}
