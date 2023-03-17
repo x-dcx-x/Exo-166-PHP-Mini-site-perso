@@ -24,7 +24,7 @@
         <input type="password" name="password-repeat" id="id-password-repeat">
     </div>
     <div>
-        <input type="submit" value="Envoyer">
+        <input type="submit" value="Envoyer" name="submit">
     </div>
 
 </from>
