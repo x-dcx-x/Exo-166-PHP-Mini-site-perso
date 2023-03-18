@@ -5,6 +5,7 @@ if (isset($_POST['username']) && isset($_POST['email']) && isset($_POST['passwor
     $email = trim(strip_tags($_POST['email']));
     $password = trim(strip_tags($_POST['password']));
     $passwordR = trim(strip_tags($_POST['password repeat']));
+    $age = intval($_POST ["age"]);
     echo "Tout roule";
     var_dump($_POST);
     if($password === $passwordR) {
@@ -15,6 +16,9 @@ if (isset($_POST['username']) && isset($_POST['email']) && isset($_POST['passwor
     echo "Ya une petite erreur";
 }
 
+if( $age < 18 ||$age > 120 ){
+    $age = 18;
+}
 echo "Username:".$_POST["username"]."<br>";
 echo "Age:".$_POST["age"]."<br>";
 echo "Password:".$_POST["password"]."<br>";
