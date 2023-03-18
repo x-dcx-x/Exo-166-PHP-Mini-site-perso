@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no">
-    <title>Jane Doe</title>
+    <title>Guillaume</title>
     <link rel="stylesheet" href="../public/style.css">
 </head>
 <body>
